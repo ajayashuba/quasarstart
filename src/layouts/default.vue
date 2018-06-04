@@ -75,7 +75,7 @@ export default {
   methods: {
     openURL
   },
-  mounted:function(){this.$nextTick(function(){console.log(this)})},
+  mounted:function(){this.$nextTick(function(){console.log(this.$q)})},
   
 }
 </script>
