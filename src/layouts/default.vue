@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" ref='abcd'>
     <q-layout-header>
       <q-toolbar
         color="primary"
@@ -74,7 +74,8 @@ export default {
   },
   methods: {
     openURL
-  }
+  },
+  created:function(){console.log(this.$refs.abcd)},
 }
 </script>
 
