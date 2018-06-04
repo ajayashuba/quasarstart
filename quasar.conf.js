@@ -1,7 +1,7 @@
 // Configuration for your app
 
 module.exports = function (ctx) {
-  console.log(ctx)
+  console.log(ctx);
   return {
     // app plugins (/src/plugins)
     plugins: [
